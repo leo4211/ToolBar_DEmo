@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+
+        <item name="windowActionBar">false</item>
+         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#4f3</item>
+        <!--Status bar color-->
+        <item name="colorPrimaryDark">#fff</item>
+        <!--Window color-->
+        <item name="android:windowBackground">@color/background_floating_material_light</item>
+    </style>
+
+</resources>
